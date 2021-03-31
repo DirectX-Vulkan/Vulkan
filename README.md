@@ -1,6 +1,8 @@
 # Getting the project running
 This readme currently assumes you're using a 64-bit Windows machine.
 
+**You can skip all these step below if you just want to use the compiled .exe**
+
 ## Vulkan API
 To install the Vulkan API on your machine, go to https://vulkan.lunarg.com/ and download version `1.2.162.1` for your machine.
 
@@ -28,6 +30,16 @@ For glfw you will have to include an entry for your `Visual Studio 2019\Librarie
 
 Finally, while optional, it's recommended to install the extension `GLSL Language Integration`.
 This will mostly be needed for syntax higlighting, but is also usefull for a few other things.
+
+# Getting the project running
+
+The project accept 0 or 4 args. Where with 0 args the default values will be taken.
+1. reference naam for the generated benchmark file.
+2. runtime of the benchmark.
+3. model path.
+4. texture path.
+
+If the project won't boot, double check the spelling and cases from your model.
 
 # Credits
 Original tutorial used: https://vulkan-tutorial.com
