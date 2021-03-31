@@ -1,4 +1,6 @@
 # Getting the project running
+This project will load, display and rotates a model. It runs a given time and generates a benchmark data file in the subfolder /data.
+
 This readme currently assumes you're using a 64-bit Windows machine.
 
 **You can skip all these step below if you just want to use the compiled .exe**
